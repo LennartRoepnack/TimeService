@@ -2,7 +2,7 @@
 [![New Release](https://github.com/LennartRoepnack/TimeService/actions/workflows/newRelease.yml/badge.svg)](https://github.com/LennartRoepnack/TimeService/actions/workflows/newRelease.yml)
 
 # TimeService
-This template can be used to start your own Jexxa application
+Time Service Tutorial from the Jexxa-Framework
  
 ##  Requirements
 
