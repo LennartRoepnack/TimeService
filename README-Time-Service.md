@@ -287,8 +287,8 @@ You will see following (or similar) output
 [main] INFO io.jexxa.utils.JexxaBanner - Used Message Sender Strategie  : [MessageLogger]
 [main] INFO io.jexxa.utils.JexxaBanner - 
 [main] INFO io.jexxa.utils.JexxaBanner - Access Information: 
-[main] INFO io.jexxa.utils.JexxaBanner - Listening on: http://0.0.0.0:7502
-[main] INFO io.jexxa.utils.JexxaBanner - OpenAPI available at: http://0.0.0.0:7502/swagger-docs
+[main] INFO io.jexxa.utils.JexxaBanner - Listening on: http://0.0.0.0:7503
+[main] INFO io.jexxa.utils.JexxaBanner - OpenAPI available at: http://0.0.0.0:7503/swagger-docs
 [main] INFO io.jexxa.utils.JexxaBanner - JMS Listening on  : tcp://ActiveMQ:61616
 [main] INFO io.jexxa.utils.JexxaBanner -    * JMS-Topics   : []
 [main] INFO io.jexxa.utils.JexxaBanner -    * JMS-Queues   : []
@@ -301,7 +301,7 @@ You will see following (or similar) output
 
 You can use curl to publish the time.  
 ```Console
-curl -X POST http://localhost:7502/TimeApplicationService/publishTime
+curl -X POST http://localhost:7503/TimeApplicationService/publishTime
 ```
 
 Each time you execute curl you should see following output on the console: 
@@ -332,8 +332,8 @@ You will see following (or similar) output
 [main] INFO io.jexxa.utils.JexxaBanner - Used Message Sender Strategie  : [JMSSender]
 [main] INFO io.jexxa.utils.JexxaBanner - 
 [main] INFO io.jexxa.utils.JexxaBanner - Access Information: 
-[main] INFO io.jexxa.utils.JexxaBanner - Listening on: http://0.0.0.0:7502
-[main] INFO io.jexxa.utils.JexxaBanner - OpenAPI available at: http://0.0.0.0:7502/swagger-docs
+[main] INFO io.jexxa.utils.JexxaBanner - Listening on: http://0.0.0.0:7503
+[main] INFO io.jexxa.utils.JexxaBanner - OpenAPI available at: http://0.0.0.0:7503/swagger-docs
 [main] INFO io.jexxa.utils.JexxaBanner - JMS Listening on  : tcp://localhost:61616
 [main] INFO io.jexxa.utils.JexxaBanner -    * JMS-Topics   : [TimeService]
 [main] INFO io.jexxa.utils.JexxaBanner -    * JMS-Queues   : []
@@ -347,7 +347,7 @@ As you can see in the last two lines, we now use the `JMSSender` which is listen
  
 You can use curl to publish the time.  
 ```Console
-curl -X POST http://localhost:7502/TimeApplicationService/publishTime
+curl -X POST http://localhost:7503/TimeApplicationService/publishTime
 ```
 
 Each time you execute curl you should see following output on the console: 
